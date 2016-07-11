@@ -33,6 +33,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .app-shell, .app {
@@ -65,6 +66,7 @@ body {
 .top.row img {
   display: inline-block;
   margin-top: -10em;
+  max-width: 100%;
 }
 
 .block {
@@ -126,6 +128,10 @@ iframe:hover {
   .block {
     display: inline-block;
     max-width: 480px;
+  }
+
+  .top.row img {
+    margin-top: auto;
   }
 
 }
