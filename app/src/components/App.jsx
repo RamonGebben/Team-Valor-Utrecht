@@ -24,7 +24,7 @@ function App(props) {
             </div>
           </div>
           <a
-            href="mailto:team-valor-utrecht@ra-ge.net?subject=Join Team Valor Utrecht'&body='We moeten het volgende weten: je naam, je screen name en je 06 nummer voor de whatsapp groep."
+            href="http://goo.gl/forms/6Bmc5A48qzbXpTIf2"
             className="button">
               Join the fight!
             </a>

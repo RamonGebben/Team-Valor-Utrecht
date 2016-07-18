@@ -120,6 +120,12 @@ iframe:hover {
 
 
 @media screen and (max-width: 480px) {
+
+  body {
+    background-attachment: inherit;
+    position: static;
+  }
+
   .app, .row {
     display: block;
     text-align: center;
@@ -128,6 +134,11 @@ iframe:hover {
   .block {
     display: inline-block;
     max-width: 480px;
+    margin-bottom: 1em;
+  }
+
+  .block:first-child {
+    margin-right: 0;
   }
 
   .top.row img {
